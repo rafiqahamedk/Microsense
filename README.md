@@ -21,25 +21,16 @@
 
 ## ⚙️ Requirements
 
-- Python 3.8+
-- NumPy
-- OpenCV (`cv2`)
-- Matplotlib
-
-Install dependencies:
-  
-## ⚙️ Requirements
-
-- Python 3.8+
-- NumPy
-- OpenCV (`cv2`)
-- Matplotlib
+  - Python 3.8+
+  - NumPy
+  - OpenCV (`cv2`)
+  - Matplotlib
 
 Install dependencies:
 
-```bash
-pip install numpy opencv-python matplotlib
-```
+  ```bash
+  pip install numpy opencv-python matplotlib
+  ```
 ## 🚀 Getting Started
 
   1. Clone the Repository
@@ -66,7 +57,8 @@ pip install numpy opencv-python matplotlib
   Build a clear dataset pipeline for medical/biotech image analysis.
   Make AI tools more accessible in microbiology education.
 
-##📝 License
+## 📝 License
+  
   This project is licensed under the MIT License. See the LICENSE file for more details.
      
      
