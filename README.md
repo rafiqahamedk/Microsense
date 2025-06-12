@@ -27,35 +27,13 @@ micro_organism_project/
 - Matplotlib
 
 Install dependencies:
+  
+## ⚙️ Requirements
 
-```bash
-pip install numpy opencv-python matplotlib
-🚀 Getting Started
-1. Clone the Repository
-bash
-git clone https://github.com/yourusername/Microsense.git
-cd Microsense
-2. Preprocess the Dataset
-Converts the raw .jpg files into .npz format for efficient access.
+- Python 3.8+
+- NumPy
+- OpenCV (`cv2`)
+- Matplotlib
 
-bash
-cd program
-python preprocess.py
-3. View the Dataset
-Use the built-in dataset viewer to interactively inspect the image samples.
-
-bash
-Copy
-Edit
-python view_dataset.py
-🎯 Goals
-Improve microorganism identification using deep learning.
-
-Build a clear dataset pipeline for medical/biotech image analysis.
-
-Make AI tools more accessible in microbiology education.
-
-📝 License
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
-Microsense – Intelligent Microorganism Classifier for Smarter Lab Workflows
+Install dependencies:
+  pip install numpy opencv-python matplotlib
