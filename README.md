@@ -11,7 +11,7 @@
 
 ## 📁 Project Structure
 
-micro_organism_project/
+  micro_organism_project/
   ├── dataset/
   │ └── bacteria_dataset/ # Raw image data (.jpg)
   ├── program/
@@ -36,4 +36,6 @@ Install dependencies:
 - Matplotlib
 
 Install dependencies:
-  pip install numpy opencv-python matplotlib
+
+```bash
+pip install numpy opencv-python matplotlib
