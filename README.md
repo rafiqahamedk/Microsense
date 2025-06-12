@@ -10,14 +10,14 @@
   - Well-structured project suitable for education and research.
 
 ## 📁 Project Structure
-
+```bash
   micro_organism_project/
   ├── dataset/
   │ └── bacteria_dataset/ # Raw image data (.jpg)
   ├── program/
   │ ├── preprocess.py # Converts images to .npz format
   │ └── view_dataset.py # Visual viewer for dataset browsing
-
+```
 
 ## ⚙️ Requirements
 
@@ -39,3 +39,34 @@ Install dependencies:
 
 ```bash
 pip install numpy opencv-python matplotlib
+```
+## 🚀 Getting Started
+
+  1. Clone the Repository
+     ```bash
+     git clone https://github.com/yourusername/Microsense.git
+     cd Microsense
+     ```
+  2. Preprocess the Dataset
+
+      Converts the raw .jpg files into .npz format for efficient access.
+```bash
+       cd program
+       python preprocess.py
+```
+  3. View the Dataset
+
+      Use the built-in dataset viewer to interactively inspect the image samples.
+     ```bash
+         python view_dataset.py
+     ```
+## 🎯 Goals
+
+  Improve microorganism identification using deep learning.
+  Build a clear dataset pipeline for medical/biotech image analysis.
+  Make AI tools more accessible in microbiology education.
+
+##📝 License
+  This project is licensed under the MIT License. See the LICENSE file for more details.
+     
+     
