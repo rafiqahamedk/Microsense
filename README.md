@@ -26,7 +26,7 @@
   - OpenCV (`cv2`)
   - Matplotlib
 
-Install dependencies:
+## ✅ Install dependencies:
 
   ```bash
   pip install numpy opencv-python matplotlib
@@ -36,6 +36,8 @@ Install dependencies:
   1. Clone the Repository
      ```bash
      git clone https://github.com/yourusername/Microsense.git
+     ```
+     ```bash
      cd Microsense
      ```
   2. Preprocess the Dataset
@@ -43,6 +45,8 @@ Install dependencies:
       Converts the raw .jpg files into .npz format for efficient access.
 ```bash
        cd program
+```
+```bash
        python preprocess.py
 ```
   3. View the Dataset
